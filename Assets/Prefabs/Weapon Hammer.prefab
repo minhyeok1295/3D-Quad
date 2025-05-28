@@ -86,7 +86,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2986502921486498058
+--- !u!1 &3742905186423591309
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,41 +94,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3373242577255397757}
-  - component: {fileID: 5677237718931193690}
+  - component: {fileID: 2416745132798319795}
+  - component: {fileID: 7607482466183918329}
   m_Layer: 0
-  m_Name: Light
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3373242577255397757
+--- !u!4 &2416745132798319795
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2986502921486498058}
+  m_GameObject: {fileID: 3742905186423591309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.17, z: 0.84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5734614586733088703}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &5677237718931193690
+--- !u!108 &7607482466183918329
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2986502921486498058}
+  m_GameObject: {fileID: 3742905186423591309}
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.745283, g: 0.41296977, b: 0.08788714, a: 1}
+  m_Color: {r: 0.8490566, g: 0.57454664, b: 0, a: 1}
   m_Intensity: 10
   m_Range: 4
   m_SpotAngle: 30
@@ -212,13 +212,13 @@ Transform:
   m_GameObject: {fileID: 4493584065043554557}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.258819, w: 0.9659259}
-  m_LocalPosition: {x: 5.47, y: 2.84, z: 0}
+  m_LocalPosition: {x: 1.84, y: 3.19, z: 17.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161182849135108879}
-  - {fileID: 3373242577255397757}
   - {fileID: 2520281379811299557}
+  - {fileID: 2416745132798319795}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
 --- !u!54 &588164763980319820
@@ -246,7 +246,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!135 &8507051543045256455
 SphereCollider:
@@ -267,7 +267,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!135 &1832479526403893670
 SphereCollider:
